@@ -21,8 +21,8 @@ django-taggit-serializer==0.1.7
 git+https://github.com/DefectDojo/django-tastypie-swagger.git@c7c5629480dc20cadd3015490a01bd8e70393c36#egg=django-tastypie-swagger
 django-tastypie==0.14.2
 django-watson==1.5.3
-Django==2.2.9
-djangorestframework==3.11.0
+Django==3.2.15
+djangorestframework==3.11.2
 gunicorn==20.0.4
 html2text==2019.9.26
 humanize==0.5.1
@@ -32,9 +32,9 @@ Markdown==3.1.1
 mysqlclient==1.4.6
 pandas>=0.24.2
 pdfkit==0.6.1
-Pillow==7.0.0  # required by django-imagekit
+Pillow==9.0.1  # required by django-imagekit
 psycopg2-binary==2.8.4
-cryptography==2.8
+cryptography==3.2
 pygments==2.4.2
 python-dateutil==2.8.1
 python-nmap==0.6.1
@@ -43,7 +43,7 @@ redis==3.3.11
 requests>=2.22.0
 sqlalchemy  # Required by Celery broker transport
 supervisor==4.1.0
-urllib3==1.25.7
+urllib3==1.26.5
 uWSGI==2.0.18
 vobject==0.9.6.1
 whitenoise>=4.1.2
@@ -57,3 +57,4 @@ google-api-python-client==1.7.11
 google-auth==1.10.0
 google-auth-oauthlib==0.4.1
 drf_yasg==1.17.0
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
