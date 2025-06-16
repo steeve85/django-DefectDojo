@@ -21,7 +21,7 @@ django-taggit-serializer==0.1.7
 git+https://github.com/DefectDojo/django-tastypie-swagger.git@c7c5629480dc20cadd3015490a01bd8e70393c36#egg=django-tastypie-swagger
 django-tastypie==0.14.2
 django-watson==1.5.3
-Django==2.2.9
+Django==4.2.22
 djangorestframework==3.11.0
 gunicorn==20.0.4
 html2text==2019.9.26
@@ -40,7 +40,7 @@ python-dateutil==2.8.1
 python-nmap==0.6.1
 pytz==2019.3
 redis==3.3.11
-requests>=2.22.0
+requests>=2.32.4
 sqlalchemy  # Required by Celery broker transport
 supervisor==4.1.0
 urllib3==1.25.7
